@@ -1,6 +1,5 @@
 package fr.houda.agenda;
 
-import java.util.regex.Pattern;
 
 public class Person {
 	private String firstName;

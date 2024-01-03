@@ -2,8 +2,17 @@ package fr.houda.abstracts;
 
 import java.awt.Point;
 
-public class Shapes {
+public abstract class Shapes {
 	private Point centre ;
+	
+	public Shapes() {
+		this(new Point(0, 0));
+	}
+	
+	public Shapes(Point centre) {
+		super();
+		this.setCentre(centre);
+	}
 
 	public Point getCentre() {
 		return centre;
@@ -15,4 +24,8 @@ public class Shapes {
 		this.centre = centre;
 	}
 	
+	public abstract double perimeter();
+	
+	public abstract double aire();
+
 }

@@ -15,15 +15,15 @@ public class TestException {
 			System.out.println("problem d'écriture");
 		}
         
-        try {
-            int divisor = (int) (Math.random() * 3);
-            int value = 1 / divisor;
-            System.out.println( "Value == " + value );
-		} catch (Exception e) {
-			 e.printStackTrace();
-		}
+//        try {
+//            int divisor = (int) (Math.random() * 3);
+//            int value = 1 / divisor;
+//            System.out.println( "Value == " + value );
+//		} catch (Exception e) {
+//			 e.printStackTrace();
+//		}
         System.out.println( "END method3" );
-    }
+      }
 
     public static void method2() {
         System.out.println( "BEGIN method2" );

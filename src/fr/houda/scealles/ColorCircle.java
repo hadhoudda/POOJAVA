@@ -10,5 +10,3 @@ public final class ColorCircle extends Circle{
 	
 		// TODO Auto-generated constructor stub
 	}
-
-}

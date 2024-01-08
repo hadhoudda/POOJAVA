@@ -24,6 +24,7 @@ public class Start {
 		}
 		
 		HashMap<Integer, Person> client = new HashMap<>();
+		//HashMap table a deux valeurs cle et valeur
 		client.put(012, new Person("assil", "ben", "assil@gmail.fr"));
 		client.put(057, new Person("aymen", "ben", "aymen@gmail.fr"));
 		Person p = client.get(012);
